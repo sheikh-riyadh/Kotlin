@@ -2,7 +2,7 @@ package kotlin_practice
 
 fun main(args:Array<String>) {
     var demo2 = Demo2()
-    demo2.
+    demo2.roll // demo2 object actually not access roll variable because of it's protected
 
 
 }
