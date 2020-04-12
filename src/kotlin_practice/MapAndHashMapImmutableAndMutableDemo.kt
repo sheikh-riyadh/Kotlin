@@ -1,7 +1,7 @@
 package kotlin_practice
 
 fun main(args:Array<String>) {
-    // Immutable read only
+    // Immutable read only and size fixed
     // Immutable that's means we can not add any value/data in future cz this are immutable
     var myMap = mapOf<Int, String>(1 to "Anik", 3 to "Polash" , 55 to "Najmus", 21 to "Mamun")
 
@@ -12,7 +12,7 @@ fun main(args:Array<String>) {
     println()
 
     // Mutable also read and write
-    // Mutable we also add new value in future
+    // Mutable we also add new value in future size not fixed
     var hashMap = HashMap<Int,String>()
     hashMap.apply {
         put(1,"Kamrul")
